@@ -1,0 +1,415 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\models\\bookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\models\\bookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\views\\venues\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\views\\venues\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\views\\venues\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\views\\venues\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\views\\venues\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\views\\venues\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\views\\venues\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\views\\venues\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\views\\venues\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\views\\venues\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\models\\venues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\models\\venues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\models\\venueequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\models\\venueequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202103526_surecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CityPointRoomHire\\Data\\Migrations\\20260202103526_surecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202102102_AddCapacityToVenues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CityPointRoomHire\\Data\\Migrations\\20260202102102_AddCapacityToVenues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202094442_ScaffoldedCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CityPointRoomHire\\Data\\Migrations\\20260202094442_ScaffoldedCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|c:\\users\\725181\\source\\repos\\citypointroomhire\\citypointroomhire\\models\\bookingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76501B4A-6992-4AD1-A901-042DF30352BD}|CityPointRoomHire\\CityPointRoomHire.csproj|solutionrelative:citypointroomhire\\models\\bookingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202093044_ModelsCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CityPointRoomHire\\Data\\Migrations\\20260202093044_ModelsCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202090605_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CityPointRoomHire\\Data\\Migrations\\20260202090605_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Venues\\Details.cshtml",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Views\\Venues\\Details.cshtml",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Venues\\Details.cshtml",
+              "RelativeToolTip": "CityPointRoomHire\\Views\\Venues\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T10:32:39.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Venues\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Views\\Venues\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Venues\\Delete.cshtml",
+              "RelativeToolTip": "CityPointRoomHire\\Views\\Venues\\Delete.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAMwCkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T10:32:21.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Venues\\Index.cshtml",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Views\\Venues\\Index.cshtml",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Venues\\Index.cshtml",
+              "RelativeToolTip": "CityPointRoomHire\\Views\\Venues\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAMwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T10:32:53.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Program.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Program.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Program.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T10:21:48.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\SeedData.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:55:32.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:06:30.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bookings.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Models\\Bookings.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Models\\Bookings.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Models\\Bookings.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Models\\Bookings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:07:08.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:42:35.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VenuesController.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Controllers\\VenuesController.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Controllers\\VenuesController.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Controllers\\VenuesController.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Controllers\\VenuesController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwC0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:43:51.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAlwA8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:36:26.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VenueEquipment.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Models\\VenueEquipment.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Models\\VenueEquipment.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Models\\VenueEquipment.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Models\\VenueEquipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T10:10:38.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Models\\Equipment.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Models\\Equipment.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Models\\Equipment.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Models\\Equipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T10:06:56.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Venues\\Create.cshtml",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Views\\Venues\\Create.cshtml",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Venues\\Create.cshtml",
+              "RelativeToolTip": "CityPointRoomHire\\Views\\Venues\\Create.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAjwCYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T10:32:04.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Venues\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Views\\Venues\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Venues\\Edit.cshtml",
+              "RelativeToolTip": "CityPointRoomHire\\Views\\Venues\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAMwCIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T10:32:47.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Bookings\\Create.cshtml",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Views\\Bookings\\Create.cshtml",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Bookings\\Create.cshtml",
+              "RelativeToolTip": "CityPointRoomHire\\Views\\Bookings\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T10:54:59.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CityPointRoomHire\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T10:48:21.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Venues.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Models\\Venues.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Models\\Venues.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Models\\Venues.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Models\\Venues.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:06:57.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20260202103526_surecreate.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202103526_surecreate.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Data\\Migrations\\20260202103526_surecreate.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202103526_surecreate.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Data\\Migrations\\20260202103526_surecreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T10:35:26.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BookingsService.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Models\\BookingsService.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Models\\BookingsService.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Models\\BookingsService.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Models\\BookingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:31:44.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20260202093044_ModelsCreate.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202093044_ModelsCreate.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Data\\Migrations\\20260202093044_ModelsCreate.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202093044_ModelsCreate.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Data\\Migrations\\20260202093044_ModelsCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:30:45.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260202102102_AddCapacityToVenues.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202102102_AddCapacityToVenues.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Data\\Migrations\\20260202102102_AddCapacityToVenues.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202102102_AddCapacityToVenues.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Data\\Migrations\\20260202102102_AddCapacityToVenues.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T10:21:02.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260202094442_ScaffoldedCreate.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202094442_ScaffoldedCreate.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Data\\Migrations\\20260202094442_ScaffoldedCreate.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202094442_ScaffoldedCreate.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Data\\Migrations\\20260202094442_ScaffoldedCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:44:42.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20260202090605_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202090605_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CityPointRoomHire\\Data\\Migrations\\20260202090605_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRoomHire\\CityPointRoomHire\\Data\\Migrations\\20260202090605_InitialCreate.cs",
+              "RelativeToolTip": "CityPointRoomHire\\Data\\Migrations\\20260202090605_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:06:05.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
