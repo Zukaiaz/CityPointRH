@@ -1,0 +1,87 @@
+﻿@model IEnumerable<CityPoint_RoomHire.Models.Venues>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+
+<form asp-action="FilterByCapacity" method="get">
+    <div class="form-group">
+        <label for="capacity">Filter by Venue Capacity:</label>
+        <input type="number" name="capacity" class="form-control" placeholder="Enter minimum capacity" min="0" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Filter" class="btn btn-primary" />
+    </div>
+
+</form>
+
+<form asp-action="FilterByPrice" method="get">
+    <div class="form-group">
+        <label for="price">Filter by Venue Price:</label>
+        <input type="range"name="price" class="form-control" placeholder="Enter minimum price" min="0"/>
+    </div>
+
+
+</form>
+
+
+<form asp-action="Index">
+    <div class="form-group">
+        <input type="submit" value="Clear Filter" class="btn btn-secondary" />
+    </div>
+</form>
+
+
+
+
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.VenueName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VenueDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Capacity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PricePerHour)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.VenueName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VenueDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Capacity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PricePerHour)
+            </td>
+            <td>
+                <a asp-controller="VenueBookings" asp-action="Create" asp-route-venuesId="@item.VenuesId" class="btn btn-success btn-sm">Book Now</a>
+                <a asp-action="Edit" asp-route-id="@item.VenuesId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.VenuesId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.VenuesId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
