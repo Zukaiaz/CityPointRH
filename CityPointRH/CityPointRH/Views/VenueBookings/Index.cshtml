@@ -1,0 +1,74 @@
+﻿@model IEnumerable<CityPointRH.Models.VenueBookings>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Index</h1>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #DDD;
+    }
+
+    tr:hover {
+        background-color: #D6EEEE;
+    }
+
+
+
+</style>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Venue Name
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @if (Model != null)
+    {
+        @foreach (var item in Model)
+        {
+        <tr>
+                <td>
+                    @item.Venue.VenueName
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BookingDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndTime)
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.VenueBookingsId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.VenueBookingsId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.VenueBookingsId">Delete</a>
+                </td>
+            </tr>
+        }
+    }
+    </tbody>
+</table>

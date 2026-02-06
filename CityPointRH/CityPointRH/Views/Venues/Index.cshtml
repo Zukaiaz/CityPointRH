@@ -1,0 +1,201 @@
+﻿@model IEnumerable<CityPointRH.Models.Venues>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    .venue-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+        .venue-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+    .venue-image {
+        width: 200px;
+        height: 150px;
+        background-color: #e9ecef;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        color: #6c757d;
+        font-size: 14px;
+    }
+
+    .venue-header {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .venue-details {
+        display: flex;
+        gap: 40px;
+        margin-top: 10px;
+    }
+
+    .detail-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detail-label {
+        font-size: 0.875rem;
+        color: #6c757d;
+        font-weight: 500;
+    }
+
+    .detail-value {
+        font-size: 1rem;
+        color: #212529;
+        font-weight: 500;
+    }
+
+    .venue-actions {
+        margin-top: 15px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn-view-details {
+        background-color: #a8d5f7;
+        border: none;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 4px;
+        flex: 1;
+    }
+
+    .btn-book-now {
+        background-color: #90ee90;
+        border: none;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 4px;
+        flex: 1;
+    }
+
+    .filter-card {
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+</style>
+
+<h1>Rooms & Facilities</h1>
+
+<!-- Filter Section -->
+<div class="filter-card">
+    <h5>Filter Venues</h5>
+    <form asp-action="Filter" method="get">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="minCapacity">Minimum Capacity:</label>
+                    <input type="number" name="minCapacity" class="form-control" placeholder="e.g., 10" min="0" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="minPrice">Min Price (£/hour):</label>
+                    <input type="number" name="minPrice" class="form-control" placeholder="e.g., 20" min="0" step="0.01" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="maxPrice">Max Price (£/hour):</label>
+                    <input type="number" name="maxPrice" class="form-control" placeholder="e.g., 100" min="0" step="0.01" />
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Apply Filters</button>
+                <a asp-action="Index" class="btn btn-secondary">Clear Filters</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Create New Venue</a>
+</p>
+
+<!-- Venue Cards -->
+<div class="venues-container">
+    @if (Model != null && Model.Any())
+    {
+        @foreach (var item in Model)
+        {
+            <div class="venue-card">
+                <div class="row">
+                    <!-- Image Section -->
+                    <div class="col-md-3">
+                        <div class="venue-image">
+                            IMAGE
+                        </div>
+                    </div>
+
+                    <!-- Details Section -->
+                    <div class="col-md-9">
+                        <div class="venue-header">@item.VenueName</div>
+
+                        <div class="venue-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Capacity</span>
+                                <span class="detail-value">@item.Capacity people</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Size</span>
+                                <span class="detail-value">-</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Type</span>
+                                <span class="detail-value">Meeting Room</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Price</span>
+                                <span class="detail-value">£@item.PricePerHour/hour</span>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 10px; color: #6c757d;">
+                            <strong>Description:</strong> @item.VenueDescription
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="venue-actions">
+                            <a asp-action="Details" asp-route-id="@item.VenuesId" class="btn btn-view-details">
+                                View Details
+                            </a>
+                            <a asp-controller="VenueBookings" asp-action="Create" asp-route-venuesId="@item.VenuesId" class="btn btn-book-now">
+                                Book This Room
+                            </a>
+                        </div>
+
+                        <!-- Admin Actions -->
+                        <div style="margin-top: 10px; font-size: 0.875rem;">
+                            <a asp-action="Edit" asp-route-id="@item.VenuesId">Edit</a> |
+                            <a asp-action="Delete" asp-route-id="@item.VenuesId">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="alert alert-info">
+            No venues found matching your criteria.
+        </div>
+    }
+</div>
