@@ -1,47 +1,153 @@
-﻿@model IEnumerable<CityPointRH.Models.VenueEquipment>
-
+﻿@model IEnumerable<CityPointRH.Models.EquipmentHire>
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<style>
+    .venue-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+        .venue-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+    .venue-image {
+        width: 200px;
+        height: 150px;
+        background-color: #e9ecef;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        color: #6c757d;
+        font-size: 14px;
+    }
+
+    .venue-header {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .venue-details {
+        display: flex;
+        gap: 40px;
+        margin-top: 10px;
+    }
+
+    .detail-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detail-label {
+        font-size: 0.875rem;
+        color: #6c757d;
+        font-weight: 500;
+    }
+
+    .detail-value {
+        font-size: 1rem;
+        color: #212529;
+        font-weight: 500;
+    }
+
+    .venue-actions {
+        margin-top: 15px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn-view-details {
+        background-color: #a8d5f7;
+        border: none;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 4px;
+        flex: 1;
+    }
+
+    .btn-book-now {
+        background-color: #90ee90;
+        border: none;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 4px;
+        flex: 1;
+    }
+
+    .filter-card {
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+</style>
+
+<h1>Rooms & Facilities</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-success">Add New Equipment</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.IsIncluded)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Venue)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Equipment)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.IsIncluded)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Venue.VenuesId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Equipment.EquipmentHireId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.VenueEquipmentId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.VenueEquipmentId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.VenueEquipmentId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+<!-- Venue Cards -->
+<div class="venues-container">
+    @if (Model != null && Model.Any())
+    {
+        @foreach (var item in Model)
+        {
+            <div class="venue-card">
+                <div class="row">
+                    <!-- Image Section -->
+                    <div class="col-md-3">
+                        <div class="venue-image">
+                            IMAGE
+                        </div>
+                    </div>
+
+                    <!-- Details Section -->
+                    <div class="col-md-9">
+                        <div class="venue-header">@item.EquipmentName</div>
+                            <div class="detail-item">
+                                <span class="detail-label">Price</span>
+                                <span class="detail-value">£@item.PricePerHour/hour</span>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 10px; color: #6c757d;">
+                            <strong>Description:</strong> @item.EquipmentDescription
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="venue-actions">
+                            <a asp-action="Details" asp-route-id="@item.EquipmentHireId" class="btn btn-view-details">
+                                View Details
+                            </a>
+                            <a asp-controller="VenueBookings" asp-action="Create" asp-route-venuesId="@item.EquipmentHireId" class="btn btn-book-now">
+                                Book This Room
+                            </a>
+                        </div>
+
+                        <!-- Admin Actions -->
+                        <div style="margin-top: 10px; font-size: 0.875rem;">
+                            <a asp-action="Edit" asp-route-id="@item.EquipmentHireId">Edit</a> |
+                            <a asp-action="Delete" asp-route-id="@item.EquipmentHireId">Delete</a>
+                        </div>
+                    </div>
+                </div>
+        }
+    }
+    else
+    {
+        <div class="alert alert-info">
+            No venues found matching your criteria.
+        </div>
+    }
+</div>

@@ -1,0 +1,359 @@
+﻿@model IEnumerable<CityPointRH.Models.VenueBookings>
+@{
+    ViewData["Title"] = "Manage Bookings";
+    var currentStatus = ViewBag.CurrentStatus as string;
+}
+
+<style>
+    .booking-card {
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+        position: relative;
+    }
+
+        .booking-card.pending {
+            border-color: #ffc107;
+            background-color: #fff9e6;
+        }
+
+        .booking-card.confirmed {
+            border-color: #28a745;
+            background-color: #e6f9ed;
+        }
+
+        .booking-card.completed {
+            border-color: #6c757d;
+            background-color: #f8f9fa;
+        }
+
+        .booking-card.cancelled {
+            border-color: #dc3545;
+            background-color: #ffe6e6;
+        }
+
+    .booking-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .booking-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .status-badge {
+        font-size: 0.75rem;
+        padding: 4px 12px;
+        border-radius: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .status-pending {
+        background-color: #ffc107;
+        color: #000;
+    }
+
+    .status-confirmed {
+        background-color: #28a745;
+        color: #fff;
+    }
+
+    .status-completed {
+        background-color: #6c757d;
+        color: #fff;
+    }
+
+    .status-cancelled {
+        background-color: #dc3545;
+        color: #fff;
+    }
+
+    .booking-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .price-label {
+        font-size: 0.875rem;
+        color: #6c757d;
+        display: block;
+    }
+
+    .booking-id {
+        font-size: 0.875rem;
+        color: #6c757d;
+        margin-bottom: 10px;
+    }
+
+    .customer-info {
+        background-color: #f8f9fa;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        font-size: 0.875rem;
+    }
+
+    .booking-details {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        margin: 15px 0;
+        padding: 15px 0;
+        border-top: 1px solid #dee2e6;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .detail-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detail-label {
+        font-size: 0.875rem;
+        color: #6c757d;
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+
+    .detail-value {
+        font-size: 1rem;
+        color: #212529;
+        font-weight: 600;
+    }
+
+    .booking-actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .btn-confirm {
+        background-color: #28a745;
+        border: none;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 4px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .btn-reject {
+        background-color: #dc3545;
+        border: none;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 4px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .btn-complete {
+        background-color: #6c757d;
+        border: none;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 4px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .btn-view {
+        background-color: #a8d5f7;
+        border: none;
+        color: #000;
+        padding: 10px 30px;
+        border-radius: 4px;
+        font-weight: 500;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .filter-tabs {
+        display: flex;
+        gap: 10px;
+        margin: 20px 0;
+        flex-wrap: wrap;
+    }
+
+    .filter-tab {
+        padding: 8px 16px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        cursor: pointer;
+        font-size: 0.875rem;
+        text-decoration: none;
+        color: #000;
+    }
+
+        .filter-tab:hover {
+            background-color: #f8f9fa;
+            text-decoration: none;
+        }
+
+        .filter-tab.active {
+            background-color: #4da6ff;
+            color: #fff;
+            border-color: #4da6ff;
+        }
+
+    .page-header {
+        margin-bottom: 10px;
+    }
+
+    .page-subtitle {
+        color: #6c757d;
+        font-size: 0.875rem;
+        margin-bottom: 20px;
+    }
+
+    .alert-pending {
+        background-color: #fff3cd;
+        border: 1px solid #ffc107;
+        color: #856404;
+        padding: 12px 20px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="page-header">
+    <h1>Manage Bookings</h1>
+    <p class="page-subtitle">Review and manage all venue reservations</p>
+</div>
+
+@if (ViewBag.PendingCount > 0)
+{
+    <div class="alert-pending">
+        <strong>⚠️ Action Required:</strong> You have @ViewBag.PendingCount pending booking request@(ViewBag.PendingCount != 1 ? "s" : "") awaiting approval.
+    </div>
+}
+
+<div class="filter-tabs">
+    <a asp-action="Manage" class="filter-tab @(string.IsNullOrEmpty(currentStatus) ? "active" : "")">
+        All Bookings (@ViewBag.TotalCount)
+    </a>
+    <a asp-action="Manage" asp-route-status="Pending" class="filter-tab @(currentStatus == "Pending" ? "active" : "")">
+        Pending (@ViewBag.PendingCount)
+    </a>
+    <a asp-action="Manage" asp-route-status="Confirmed" class="filter-tab @(currentStatus == "Confirmed" ? "active" : "")">
+        Confirmed (@ViewBag.ConfirmedCount)
+    </a>
+    <a asp-action="Manage" asp-route-status="Completed" class="filter-tab @(currentStatus == "Completed" ? "active" : "")">
+        Completed (@ViewBag.CompletedCount)
+    </a>
+    <a asp-action="Manage" asp-route-status="Cancelled" class="filter-tab @(currentStatus == "Cancelled" ? "active" : "")">
+        Cancelled (@ViewBag.CancelledCount)
+    </a>
+</div>
+
+@if (Model != null && Model.Any())
+{
+    @foreach (var item in Model)
+    {
+        var status = item.Status.ToLower();
+        var statusClass = $"status-{status}";
+        var cardClass = status;
+
+        // Calculate duration
+        var duration = (item.EndTime.ToTimeSpan() - item.StartTime.ToTimeSpan()).TotalHours;
+
+        // Calculate price
+        var totalPrice = item.Venue.PricePerHour * (decimal)duration;
+
+        <div class="booking-card @cardClass">
+            <div class="booking-header">
+                <div class="booking-title">
+                    @item.Venue.VenueName
+                    <span class="status-badge @statusClass">@item.Status</span>
+                </div>
+                <div class="booking-price">
+                    £@totalPrice.ToString("F2")
+                    <span class="price-label">@duration hour@(duration != 1 ? "s" : "")</span>
+                </div>
+            </div>
+
+            <div class="booking-id">
+                Booking ID: #BR@item.BookingDate.ToString("yyMMdd")-@item.VenueBookingsId.ToString("D4")
+            </div>
+
+            <div class="customer-info">
+                <strong>Customer:</strong> @item.User.Email
+            </div>
+
+            <div class="booking-details">
+                <div class="detail-item">
+                    <span class="detail-label">Date</span>
+                    <span class="detail-value">@item.BookingDate.ToString("ddd, MMM d, yyyy")</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Time</span>
+                    <span class="detail-value">@item.StartTime.ToString("h:mm tt") - @item.EndTime.ToString("h:mm tt")</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Duration</span>
+                    <span class="detail-value">@duration hours</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Equipment</span>
+                    <span class="detail-value">None</span>
+                </div>
+            </div>
+
+            <div class="booking-actions">
+                <a asp-action="Details" asp-route-id="@item.VenueBookingsId" class="btn-view">View Details</a>
+
+                @if (status == "pending")
+                {
+                    <form asp-action="UpdateStatus" method="post" style="display: inline; flex: 1;">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="@item.VenueBookingsId" />
+                        <input type="hidden" name="status" value="Confirmed" />
+                        <button type="submit" class="btn-confirm" style="width: 100%;">✓ Confirm Booking</button>
+                    </form>
+
+                    <form asp-action="UpdateStatus" method="post" style="display: inline; flex: 1;">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="@item.VenueBookingsId" />
+                        <input type="hidden" name="status" value="Cancelled" />
+                        <button type="submit" class="btn-reject" style="width: 100%;">✗ Reject</button>
+                    </form>
+                }
+                else if (status == "confirmed")
+                {
+                    <form asp-action="UpdateStatus" method="post" style="display: inline; flex: 1;">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="@item.VenueBookingsId" />
+                        <input type="hidden" name="status" value="Completed" />
+                        <button type="submit" class="btn-complete" style="width: 100%;">Mark as Completed</button>
+                    </form>
+
+                    <form asp-action="UpdateStatus" method="post" style="display: inline; flex: 1;">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="@item.VenueBookingsId" />
+                        <input type="hidden" name="status" value="Cancelled" />
+                        <button type="submit" class="btn-reject" style="width: 100%;">Cancel Booking</button>
+                    </form>
+                }
+            </div>
+        </div>
+    }
+}
+else
+{
+    <div class="alert alert-info">
+        <h4>No @(string.IsNullOrEmpty(currentStatus) ? "" : currentStatus.ToLower()) bookings found</h4>
+        <p>There are no @(string.IsNullOrEmpty(currentStatus) ? "" : currentStatus.ToLower()) bookings at this time.</p>
+    </div>
+}

@@ -11,15 +11,15 @@ namespace CityPointRH.Data
             {
                 var venues = new List<Models.Venues>
                    {
-                       new Models.Venues { VenueName = "Conference Room A", VenueDescription = "A spacious conference room with seating for 50 people.", Capacity = 50, PricePerHour = 100.00m },
-                       new Models.Venues { VenueName = "Meeting Room B", VenueDescription = "A small meeting room suitable for up to 10 people.", Capacity = 10, PricePerHour = 40.00m },
-                       new Models.Venues { VenueName = "Auditorium", VenueDescription = "A large auditorium with stage and seating for 200 people.", Capacity = 200, PricePerHour = 300.00m },
-                       new Models.Venues { VenueName = "Riverside Pavillion", VenueDescription = "An elegant, two-storey, Grade II listed building (originally 1913) overlooking the Thames", Capacity = 350, PricePerHour = 460m },
-                       new Models.Venues { VenueName = "City Point Conference Centre", VenueDescription = "A modern conference centre with multiple rooms and state-of-the-art facilities.", Capacity = 500, PricePerHour = 600.00m },
-                       new Models.Venues { VenueName = "Skyline Rooftop", VenueDescription = "A rooftop venue with stunning city views, perfect for events and parties.", Capacity = 150, PricePerHour = 200.00m },
-                       new Models.Venues { VenueName = "Garden Terrace", VenueDescription = "A beautiful outdoor terrace surrounded by gardens, ideal for weddings and receptions.", Capacity = 100, PricePerHour = 150.00m }, 
-                       new Models.Venues { VenueName = "Bethrothed Suite", VenueDescription = "A suite at the highest floor of a sky scraper with a wonderful view of the city", Capacity = 20, PricePerHour = 219.99m },
-                       new Models.Venues { VenueName = "The Refinery Room", VenueDescription = "A room that's perfect for recreational activities, wonderful for all ages", Capacity = 35, PricePerHour = 29.99m}
+                       new Models.Venues { VenueName = "Conference Room A", VenueDescription = "A spacious conference room with seating for 50 people.", Capacity = 50, PricePerHour = 100.00m, ImagePath="meeting-room.jpg"  },
+                       new Models.Venues { VenueName = "Meeting Room B", VenueDescription = "A small meeting room suitable for up to 10 people.", Capacity = 10, PricePerHour = 40.00m, ImagePath = "meeting-roomB.jpg" },
+                       new Models.Venues { VenueName = "Auditorium", VenueDescription = "A large auditorium with stage and seating for 200 people.", Capacity = 200, PricePerHour = 300.00m, ImagePath = "auditorium.jpg" },
+                       new Models.Venues { VenueName = "Riverside Pavillion", VenueDescription = "An elegant, two-storey, Grade II listed building (originally 1913) overlooking the Thames", Capacity = 350, PricePerHour = 460m, ImagePath = "riverside.jpg" },
+                       new Models.Venues { VenueName = "City Point Conference Centre", VenueDescription = "A modern conference centre with multiple rooms and state-of-the-art facilities.", Capacity = 500, PricePerHour = 600.00m, ImagePath = "conference.jpg" },
+                       new Models.Venues { VenueName = "Skyline Rooftop", VenueDescription = "A rooftop venue with stunning city views, perfect for events and parties.", Capacity = 150, PricePerHour = 200.00m, ImagePath = "rooftop.jpg" },
+                       new Models.Venues { VenueName = "Garden Terrace", VenueDescription = "A beautiful outdoor terrace surrounded by gardens, ideal for weddings and receptions.", Capacity = 100, PricePerHour = 150.00m, ImagePath = "garden.jpg" }, 
+                       new Models.Venues { VenueName = "Bethrothed Suite", VenueDescription = "A suite at the highest floor of a sky scraper with a wonderful view of the city", Capacity = 20, PricePerHour = 219.99m, ImagePath = "suite.jpg" },
+                       new Models.Venues { VenueName = "The Refinery Room", VenueDescription = "A room that's perfect for recreational activities, wonderful for all ages", Capacity = 35, PricePerHour = 29.99m, ImagePath = "refinery.jpg"}
                    };
                 await context.Venues.AddRangeAsync(venues);
                 await context.SaveChangesAsync();

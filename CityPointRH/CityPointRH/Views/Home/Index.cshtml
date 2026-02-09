@@ -2,7 +2,270 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    .hero-section {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 80px 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+        opacity: 0.95;
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .btn-browse {
+        background-color: #fff;
+        color: #667eea;
+        padding: 12px 30px;
+        border-radius: 5px;
+        font-weight: 600;
+        text-decoration: none;
+        border: 2px solid #fff;
+    }
+
+        .btn-browse:hover {
+            background-color: #f0f0f0;
+            text-decoration: none;
+            color: #667eea;
+        }
+
+    .btn-book {
+        background-color: #90ee90;
+        color: #000;
+        padding: 12px 30px;
+        border-radius: 5px;
+        font-weight: 600;
+        text-decoration: none;
+        border: 2px solid #90ee90;
+    }
+
+        .btn-book:hover {
+            background-color: #7ed97e;
+            text-decoration: none;
+            color: #000;
+        }
+
+    .category-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+    .category-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        text-decoration: none;
+        color: inherit;
+    }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-decoration: none;
+        }
+
+    .category-image {
+        width: 100%;
+        height: 150px;
+        background-color: #e9ecef;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        object-fit: cover;
+    }
+
+    .category-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+    .feature-card {
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 30px;
+    }
+
+    .feature-icon {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .feature-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .feature-description {
+        color: #6c757d;
+        line-height: 1.6;
+    }
+
+    .footer-section {
+        background-color: #f8f9fa;
+        padding: 40px 20px;
+        border-radius: 8px;
+        margin-top: 50px;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 30px;
+    }
+
+    .footer-column h5 {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .footer-column ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .footer-column ul li {
+            margin-bottom: 8px;
+        }
+
+    .footer-column a {
+        color: #6c757d;
+        text-decoration: none;
+    }
+
+        .footer-column a:hover {
+            color: #667eea;
+        }
+</style>
+
+<!-- Hero Section -->
+<div class="hero-section">
+    <h1 class="hero-title">Welcome to CityPoint Room Hire</h1>
+    <p class="hero-subtitle">Book professional meeting rooms, training spaces, and event venues at competitive rates</p>
+    <div class="hero-buttons">
+        <a href="@Url.Action("Index", "Venues")" class="btn-browse">Browse Rooms</a>
+        <a href="@Url.Action("Index", "Venues")" class="btn-book">Book Now</a>
+    </div>
+</div>
+
+<!-- Category Cards -->
+<div class="category-grid">
+    <a href="@Url.Action("Index", "Venues")" class="category-card">
+        <img src="~/images/meeting-room.jpg" alt="Meeting Rooms" class="category-image"
+             onerror="this.style.backgroundColor='#e9ecef'; this.style.display='flex'; this.style.alignItems='center'; this.style.justifyContent='center'; this.innerHTML='<span style=color:#6c757d;>Meeting Rooms</span>';" />
+        <div class="category-title">Meeting Rooms</div>
+    </a>
+
+    <a href="@Url.Action("Index", "Venues")" class="category-card">
+        <img src="~/images/training-space.jpg" alt="Training Spaces" class="category-image"
+             onerror="this.style.backgroundColor='#e9ecef'; this.style.display='flex'; this.style.alignItems='center'; this.style.justifyContent='center'; this.innerHTML='<span style=color:#6c757d;>Training Spaces</span>';" />
+        <div class="category-title">Training Spaces</div>
+    </a>
+
+    <a href="@Url.Action("Index", "Venues")" class="category-card">
+        <img src="~/images/event-room.jpg" alt="Event Rooms" class="category-image"
+             onerror="this.style.backgroundColor='#e9ecef'; this.style.display='flex'; this.style.alignItems='center'; this.style.justifyContent='center'; this.innerHTML='<span style=color:#6c757d;>Event Rooms</span>';" />
+        <div class="category-title">Event Rooms</div>
+    </a>
+
+    <a href="@Url.Action("Index", "Venues")" class="category-card">
+        <img src="~/images/equipment.jpg" alt="Equipment" class="category-image"
+             onerror="this.style.backgroundColor='#e9ecef'; this.style.display='flex'; this.style.alignItems='center'; this.style.justifyContent='center'; this.innerHTML='<span style=color:#6c757d;>Equipment</span>';" />
+        <div class="category-title">Equipment</div>
+    </a>
+</div>
+
+<!-- Features Section -->
+<div class="features-grid">
+    <div class="feature-card">
+        <div class="feature-icon">✓</div>
+        <h3 class="feature-title">Flexible Bookings</h3>
+        <p class="feature-description">Book by the hour or full day. Modify or cancel your reservation easily with our flexible booking system.</p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3 class="feature-title">Modern Facilities</h3>
+        <p class="feature-description">State-of-the-art equipment including projectors, whiteboards, video conferencing, and high-speed WiFi in all rooms.</p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3 class="feature-title">Easy Management</h3>
+        <p class="feature-description">View your booking history, manage upcoming reservations, and track your usage all from one convenient dashboard.</p>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<div class="footer-section">
+    <div class="footer-grid">
+        <div class="footer-column">
+            <h5>About</h5>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Facilities</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h5>Services</h5>
+            <ul>
+                <li><a href="@Url.Action("Index", "Venues")">Room Hire</a></li>
+                <li><a href="#">Equipment Rental</a></li>
+                <li><a href="#">Catering</a></li>
+                <li><a href="#">Event Support</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h5>Contact</h5>
+            <ul>
+                <li>Email: info@citypoint.com</li>
+                <li>Phone: 0121 555 0100</li>
+                <li>Address: CityPoint, Birmingham</li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h5>Follow Us</h5>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
 </div>

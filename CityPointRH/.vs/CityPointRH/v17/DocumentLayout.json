@@ -1,118 +1,120 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\725181\\source\\repos\\CityPointRH\\",
+  "WorkspaceRootPath": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\venues\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\views\\venues\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\views\\venues\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\wwwroot\\js\\accessibility.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206125416_seedagainCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CityPointRH\\Data\\Migrations\\20260206125416_seedagainCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\views\\venuebookings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\views\\venuebookings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\controllers\\venuebookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\controllers\\venuebookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\controllers\\venuebookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\views\\venuebookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\views\\venuebookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\views\\venuebookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\views\\venuebookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\models\\venues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\models\\venuebookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\models\\venuebookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\models\\venuebookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\models\\venueequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\models\\venueequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\venueequipments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\controllers\\venueequipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\controllers\\venueequipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\views\\venuebookings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\views\\venuebookings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260209100533_tryingtoaddpicshere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\views\\venuebookings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\views\\venuebookings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\venueequipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206115550_GulpCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CityPointRH\\Data\\Migrations\\20260206115550_GulpCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\models\\equipmentbookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\models\\venues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\models\\venues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\venuebookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\venuebookings\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\views\\venues\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\views\\venues\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\venuebookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206100826_SecondCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CityPointRH\\Data\\Migrations\\20260206100826_SecondCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\controllers\\venueequipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\venuebookings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206100137_scaffoldCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CityPointRH\\Data\\Migrations\\20260206100137_scaffoldCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260209092450_AddStatusToVenueBookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\controllers\\equipmenthirescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\controllers\\equipmenthirescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\models\\equipmenthire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\controllers\\equipmentbookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\controllers\\equipmentbookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\models\\venueequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206095823_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CityPointRH\\Data\\Migrations\\20260206095823_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\models\\equipmentbookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\models\\equipmentbookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|c:\\users\\725181\\source\\repos\\citypointrh\\citypointrh\\models\\equipmenthire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|solutionrelative:citypointrh\\models\\equipmenthire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\venuebookings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\venuebookings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\views\\venues\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\controllers\\equipmenthirescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\controllers\\equipmentbookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\data\\migrations\\20260206125416_seedagaincreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\data\\migrations\\20260206115550_gulpcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\data\\migrations\\20260206100826_secondcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\data\\migrations\\20260206100137_scaffoldcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54535CD-3737-419A-A7C2-CD118D84F5EF}|CityPointRH\\CityPointRH.csproj|\\\\dom.sandwell.ac.uk\\student\\homeodd\\725181\\github\\citypointrh\\citypointrh\\citypointrh\\data\\migrations\\20260206095823_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,7 +124,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,63 +132,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\appsettings.json",
-              "RelativeDocumentMoniker": "CityPointRH\\appsettings.json",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\appsettings.json",
-              "RelativeToolTip": "CityPointRH\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-06T13:15:30.1Z",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueEquipments\\Index.cshtml",
+              "RelativeDocumentMoniker": "CityPointRH\\Views\\VenueEquipments\\Index.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueEquipments\\Index.cshtml",
+              "RelativeToolTip": "CityPointRH\\Views\\VenueEquipments\\Index.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAI8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T09:03:56.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "VenueBookingsController.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Controllers\\VenueBookingsController.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Controllers\\VenueBookingsController.cs",
               "RelativeDocumentMoniker": "CityPointRH\\Controllers\\VenueBookingsController.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Controllers\\VenueBookingsController.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Controllers\\VenueBookingsController.cs",
               "RelativeToolTip": "CityPointRH\\Controllers\\VenueBookingsController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwFMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAmwBwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T10:00:21.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Index.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Index.cshtml",
               "RelativeDocumentMoniker": "CityPointRH\\Views\\VenueBookings\\Index.cshtml",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Index.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Index.cshtml",
               "RelativeToolTip": "CityPointRH\\Views\\VenueBookings\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADcAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAQwGcBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-06T10:14:32.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 27,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Details.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Details.cshtml",
               "RelativeDocumentMoniker": "CityPointRH\\Views\\VenueBookings\\Details.cshtml",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Details.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Details.cshtml",
               "RelativeToolTip": "CityPointRH\\Views\\VenueBookings\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T11:41:30.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T11:41:30.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "VenueEquipmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Controllers\\VenueEquipmentsController.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Controllers\\VenueEquipmentsController.cs",
               "RelativeDocumentMoniker": "CityPointRH\\Controllers\\VenueEquipmentsController.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Controllers\\VenueEquipmentsController.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Controllers\\VenueEquipmentsController.cs",
               "RelativeToolTip": "CityPointRH\\Controllers\\VenueEquipmentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -197,113 +198,217 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "VenueBookings.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Models\\VenueBookings.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Models\\VenueBookings.cs",
               "RelativeDocumentMoniker": "CityPointRH\\Models\\VenueBookings.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Models\\VenueBookings.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Models\\VenueBookings.cs",
               "RelativeToolTip": "CityPointRH\\Models\\VenueBookings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBMAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T09:56:29.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "VenueEquipment.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Models\\VenueEquipment.cs",
-              "RelativeDocumentMoniker": "CityPointRH\\Models\\VenueEquipment.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Models\\VenueEquipment.cs",
-              "RelativeToolTip": "CityPointRH\\Models\\VenueEquipment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Venues.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Models\\Venues.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Models\\Venues.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Models\\Venues.cs",
+              "RelativeToolTip": "CityPointRH\\Models\\Venues.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T09:56:07.503Z",
+              "WhenOpened": "2026-02-06T09:55:36.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CityPointRH\\wwwroot\\css\\site.css",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CityPointRH\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAI0BAAAAAAAAAAAUwJcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-06T10:51:49.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CityPointRH\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CityPointRH\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwFAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T10:31:17.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\Venues\\Index.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CityPointRH\\Views\\Home\\Index.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CityPointRH\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAYwA4BAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T09:47:09.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\Venues\\Index.cshtml",
               "RelativeDocumentMoniker": "CityPointRH\\Views\\Venues\\Index.cshtml",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\Venues\\Index.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\Venues\\Index.cshtml",
               "RelativeToolTip": "CityPointRH\\Views\\Venues\\Index.cshtml",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAwwMgAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAALsAAAAAAAAAAAAYwNgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-06T10:13:32.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Program.cs",
-              "RelativeDocumentMoniker": "CityPointRH\\Program.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Program.cs",
-              "RelativeToolTip": "CityPointRH\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T10:03:25.503Z",
+              "DocumentIndex": 3,
+              "Title": "accessibility.js",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\wwwroot\\js\\accessibility.js",
+              "RelativeDocumentMoniker": "CityPointRH\\wwwroot\\js\\accessibility.js",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\wwwroot\\js\\accessibility.js",
+              "RelativeToolTip": "CityPointRH\\wwwroot\\js\\accessibility.js",
+              "ViewState": "AgIAADoAAAAAAAAAAAAuwFYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-09T11:15:18.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "site.js",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "CityPointRH\\wwwroot\\js\\site.js",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "CityPointRH\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-09T11:18:18.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\SeedData.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "CityPointRH\\Data\\SeedData.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\SeedData.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\SeedData.cs",
               "RelativeToolTip": "CityPointRH\\Data\\SeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T10:03:44.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueEquipments\\Create.cshtml",
+              "RelativeDocumentMoniker": "CityPointRH\\Views\\VenueEquipments\\Create.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueEquipments\\Create.cshtml",
+              "RelativeToolTip": "CityPointRH\\Views\\VenueEquipments\\Create.cshtml",
+              "ViewState": "AgIAAAABAAAAAAAAAAAQwHcBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T10:20:17.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "VenuesController.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Controllers\\VenuesController.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Controllers\\VenuesController.cs",
               "RelativeDocumentMoniker": "CityPointRH\\Controllers\\VenuesController.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Controllers\\VenuesController.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Controllers\\VenuesController.cs",
               "RelativeToolTip": "CityPointRH\\Controllers\\VenuesController.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAYwMIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T10:01:18.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20260206125416_seedagainCreate.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206125416_seedagainCreate.cs",
-              "RelativeDocumentMoniker": "CityPointRH\\Data\\Migrations\\20260206125416_seedagainCreate.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206125416_seedagainCreate.cs",
-              "RelativeToolTip": "CityPointRH\\Data\\Migrations\\20260206125416_seedagainCreate.cs",
+              "DocumentIndex": 13,
+              "Title": "20260209100533_tryingtoaddpicshere.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260209100533_tryingtoaddpicshere.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Data\\Migrations\\20260209100533_tryingtoaddpicshere.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260209100533_tryingtoaddpicshere.cs",
+              "RelativeToolTip": "CityPointRH\\Data\\Migrations\\20260209100533_tryingtoaddpicshere.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T10:05:33.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CityPointRH\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CityPointRH\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAQwAYBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T10:15:06.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EquipmentBookings.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Models\\EquipmentBookings.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Models\\EquipmentBookings.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Models\\EquipmentBookings.cs",
+              "RelativeToolTip": "CityPointRH\\Models\\EquipmentBookings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T09:57:40.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Controllers\\HomeController.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CityPointRH\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA2wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T09:47:14.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20260209092450_AddStatusToVenueBookings.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260209092450_AddStatusToVenueBookings.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Data\\Migrations\\20260209092450_AddStatusToVenueBookings.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260209092450_AddStatusToVenueBookings.cs",
+              "RelativeToolTip": "CityPointRH\\Data\\Migrations\\20260209092450_AddStatusToVenueBookings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T12:54:16.59Z",
+              "WhenOpened": "2026-02-09T09:24:50.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Create.cshtml",
-              "RelativeDocumentMoniker": "CityPointRH\\Views\\VenueBookings\\Create.cshtml",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Create.cshtml",
-              "RelativeToolTip": "CityPointRH\\Views\\VenueBookings\\Create.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwCwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T10:02:39.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Edit.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Edit.cshtml",
               "RelativeDocumentMoniker": "CityPointRH\\Views\\VenueBookings\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Edit.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Edit.cshtml",
               "RelativeToolTip": "CityPointRH\\Views\\VenueBookings\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -312,185 +417,200 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Delete.cshtml",
-              "RelativeDocumentMoniker": "CityPointRH\\Views\\VenueBookings\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Delete.cshtml",
-              "RelativeToolTip": "CityPointRH\\Views\\VenueBookings\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T11:40:48.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "CityPointRH\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "CityPointRH\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T10:04:14.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\Venues\\Create.cshtml",
-              "RelativeDocumentMoniker": "CityPointRH\\Views\\Venues\\Create.cshtml",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\Venues\\Create.cshtml",
-              "RelativeToolTip": "CityPointRH\\Views\\Venues\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T10:02:00.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20260206115550_GulpCreate.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206115550_GulpCreate.cs",
-              "RelativeDocumentMoniker": "CityPointRH\\Data\\Migrations\\20260206115550_GulpCreate.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206115550_GulpCreate.cs",
-              "RelativeToolTip": "CityPointRH\\Data\\Migrations\\20260206115550_GulpCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T11:55:50.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Venues.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Models\\Venues.cs",
-              "RelativeDocumentMoniker": "CityPointRH\\Models\\Venues.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Models\\Venues.cs",
-              "RelativeToolTip": "CityPointRH\\Models\\Venues.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T09:55:36.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CityPointRH\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CityPointRH\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABsAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Create.cshtml",
+              "RelativeDocumentMoniker": "CityPointRH\\Views\\VenueBookings\\Create.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Create.cshtml",
+              "RelativeToolTip": "CityPointRH\\Views\\VenueBookings\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T10:31:17.978Z",
+              "WhenOpened": "2026-02-06T10:02:39.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "CityPointRH\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "CityPointRH\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-06T10:51:49.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20260206100826_SecondCreate.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206100826_SecondCreate.cs",
-              "RelativeDocumentMoniker": "CityPointRH\\Data\\Migrations\\20260206100826_SecondCreate.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206100826_SecondCreate.cs",
-              "RelativeToolTip": "CityPointRH\\Data\\Migrations\\20260206100826_SecondCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T10:08:26.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20260206100137_scaffoldCreate.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206100137_scaffoldCreate.cs",
-              "RelativeDocumentMoniker": "CityPointRH\\Data\\Migrations\\20260206100137_scaffoldCreate.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206100137_scaffoldCreate.cs",
-              "RelativeToolTip": "CityPointRH\\Data\\Migrations\\20260206100137_scaffoldCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T10:01:37.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EquipmentHiresController.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Controllers\\EquipmentHiresController.cs",
-              "RelativeDocumentMoniker": "CityPointRH\\Controllers\\EquipmentHiresController.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Controllers\\EquipmentHiresController.cs",
-              "RelativeToolTip": "CityPointRH\\Controllers\\EquipmentHiresController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T09:59:47.568Z",
+              "Title": "Manage.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Manage.cshtml",
+              "RelativeDocumentMoniker": "CityPointRH\\Views\\VenueBookings\\Manage.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Manage.cshtml",
+              "RelativeToolTip": "CityPointRH\\Views\\VenueBookings\\Manage.cshtml",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAQwGYBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T09:35:04.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "EquipmentBookingsController.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Controllers\\EquipmentBookingsController.cs",
-              "RelativeDocumentMoniker": "CityPointRH\\Controllers\\EquipmentBookingsController.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Controllers\\EquipmentBookingsController.cs",
-              "RelativeToolTip": "CityPointRH\\Controllers\\EquipmentBookingsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "VenueEquipment.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Models\\VenueEquipment.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Models\\VenueEquipment.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Models\\VenueEquipment.cs",
+              "RelativeToolTip": "CityPointRH\\Models\\VenueEquipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T09:59:24.064Z",
+              "WhenOpened": "2026-02-06T09:56:07.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20260206095823_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206095823_InitialCreate.cs",
-              "RelativeDocumentMoniker": "CityPointRH\\Data\\Migrations\\20260206095823_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206095823_InitialCreate.cs",
-              "RelativeToolTip": "CityPointRH\\Data\\Migrations\\20260206095823_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T09:58:23.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "EquipmentBookings.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Models\\EquipmentBookings.cs",
-              "RelativeDocumentMoniker": "CityPointRH\\Models\\EquipmentBookings.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Models\\EquipmentBookings.cs",
-              "RelativeToolTip": "CityPointRH\\Models\\EquipmentBookings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T09:57:40.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 23,
               "Title": "EquipmentHire.cs",
-              "DocumentMoniker": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Models\\EquipmentHire.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Models\\EquipmentHire.cs",
               "RelativeDocumentMoniker": "CityPointRH\\Models\\EquipmentHire.cs",
-              "ToolTip": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\Models\\EquipmentHire.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Models\\EquipmentHire.cs",
               "RelativeToolTip": "CityPointRH\\Models\\EquipmentHire.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T09:57:18.454Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\appsettings.json",
+              "RelativeDocumentMoniker": "CityPointRH\\appsettings.json",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\appsettings.json",
+              "RelativeToolTip": "CityPointRH\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-06T13:15:30.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Program.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Program.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Program.cs",
+              "RelativeToolTip": "CityPointRH\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T10:03:25.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20260206125416_seedagainCreate.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206125416_seedagainCreate.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Data\\Migrations\\20260206125416_seedagainCreate.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206125416_seedagainCreate.cs",
+              "RelativeToolTip": "CityPointRH\\Data\\Migrations\\20260206125416_seedagainCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T12:54:16.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CityPointRH\\Views\\VenueBookings\\Delete.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\VenueBookings\\Delete.cshtml",
+              "RelativeToolTip": "CityPointRH\\Views\\VenueBookings\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T11:40:48.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CityPointRH\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T10:04:14.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\Venues\\Create.cshtml",
+              "RelativeDocumentMoniker": "CityPointRH\\Views\\Venues\\Create.cshtml",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\Venues\\Create.cshtml",
+              "RelativeToolTip": "CityPointRH\\Views\\Venues\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T10:02:00.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20260206115550_GulpCreate.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206115550_GulpCreate.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Data\\Migrations\\20260206115550_GulpCreate.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206115550_GulpCreate.cs",
+              "RelativeToolTip": "CityPointRH\\Data\\Migrations\\20260206115550_GulpCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T11:55:50.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260206100826_SecondCreate.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206100826_SecondCreate.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Data\\Migrations\\20260206100826_SecondCreate.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206100826_SecondCreate.cs",
+              "RelativeToolTip": "CityPointRH\\Data\\Migrations\\20260206100826_SecondCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T10:08:26.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260206100137_scaffoldCreate.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206100137_scaffoldCreate.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Data\\Migrations\\20260206100137_scaffoldCreate.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206100137_scaffoldCreate.cs",
+              "RelativeToolTip": "CityPointRH\\Data\\Migrations\\20260206100137_scaffoldCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T10:01:37.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EquipmentHiresController.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Controllers\\EquipmentHiresController.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Controllers\\EquipmentHiresController.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Controllers\\EquipmentHiresController.cs",
+              "RelativeToolTip": "CityPointRH\\Controllers\\EquipmentHiresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T09:59:47.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EquipmentBookingsController.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Controllers\\EquipmentBookingsController.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Controllers\\EquipmentBookingsController.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Controllers\\EquipmentBookingsController.cs",
+              "RelativeToolTip": "CityPointRH\\Controllers\\EquipmentBookingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T09:59:24.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20260206095823_InitialCreate.cs",
+              "DocumentMoniker": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206095823_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CityPointRH\\Data\\Migrations\\20260206095823_InitialCreate.cs",
+              "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Data\\Migrations\\20260206095823_InitialCreate.cs",
+              "RelativeToolTip": "CityPointRH\\Data\\Migrations\\20260206095823_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T09:58:23.786Z"
             }
           ]
         }

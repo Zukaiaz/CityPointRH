@@ -1,4 +1,7 @@
-﻿namespace CityPointRH.Models
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace CityPointRH.Models
 {
     public class VenueBookings
     {
@@ -8,8 +11,23 @@
         public DateOnly BookingDate { get; set; }
         public TimeOnly StartTime { get; set; }
         public TimeOnly EndTime { get; set; }
+        public string Status { get; set; } = "Pending"; // Add this line
 
-        public Venues? Venue { get; set; }
+        // Navigation properties
+        public Venues Venue { get; set; }
+        public IdentityUser User { get; set; }
+
         public ICollection<EquipmentBookings>? EquipmentBookings { get; set; }
+
+        // Computed property for duration
+        [NotMapped]
+        public double DurationHours
+        {
+            get
+            {
+                var duration = EndTime - StartTime;
+                return duration.TotalHours;
+            }
+        }
     }
 }

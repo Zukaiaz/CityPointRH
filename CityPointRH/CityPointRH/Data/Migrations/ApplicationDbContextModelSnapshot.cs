@@ -89,14 +89,20 @@ namespace CityPointRH.Data.Migrations
                     b.Property<TimeOnly>("StartTime")
                         .HasColumnType("time");
 
-                    b.Property<string>("UserId")
+                    b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("VenuesId")
                         .HasColumnType("int");
 
                     b.HasKey("VenueBookingsId");
+
+                    b.HasIndex("UserId");
 
                     b.HasIndex("VenuesId");
 
@@ -139,6 +145,9 @@ namespace CityPointRH.Data.Migrations
 
                     b.Property<int>("Capacity")
                         .HasColumnType("int");
+
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("PricePerHour")
                         .HasColumnType("decimal(18,2)");
@@ -379,11 +388,19 @@ namespace CityPointRH.Data.Migrations
 
             modelBuilder.Entity("CityPointRH.Models.VenueBookings", b =>
                 {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("CityPointRH.Models.Venues", "Venue")
                         .WithMany("VenueBookings")
                         .HasForeignKey("VenuesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("User");
 
                     b.Navigation("Venue");
                 });

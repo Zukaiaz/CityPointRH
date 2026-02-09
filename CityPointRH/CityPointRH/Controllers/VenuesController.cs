@@ -21,7 +21,6 @@ namespace CityPointRH.Controllers
         }
 
         // GET: Venues
-        [Authorize]
         // GET: Venues
         public async Task<IActionResult> Index()
         {

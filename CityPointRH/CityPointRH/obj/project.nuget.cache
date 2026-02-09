@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A7jwyvN4h3Q=",
+  "dgSpecHash": "FPoAxmY2xJk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\725181\\source\\repos\\CityPointRH\\CityPointRH\\CityPointRH.csproj",
+  "projectFilePath": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\CityPointRH.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\725181\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\725181\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -179,16 +179,5 @@
     "C:\\Users\\725181\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",
     "C:\\Users\\725181\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.0\\microsoft.netcore.app.host.win-x64.9.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Build.Tasks.Core' 17.7.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-h4j7-5rxr-p4wc",
-      "libraryId": "Microsoft.Build.Tasks.Core",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

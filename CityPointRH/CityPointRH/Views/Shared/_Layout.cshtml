@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - CityPointRH</title>
-    <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/CityPointRH.styles.css" asp-append-version="true" />
@@ -32,16 +31,39 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="VenueBookings" asp-action="Index">My Bookings</a>
                         </li>
+                        @if (User.IsInRole("Admin") || User.IsInRole("Staff"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="VenueBookings" asp-action="Manage">Manage Bookings</a>
+                            </li>
+                        }
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+    </div>
+
+    <!-- Accessibility Toggle Button -->
+    <button id="accessibility-toggle" aria-label="Accessibility Menu">
+        ♿
+    </button>
+
+    <!-- Accessibility Menu -->
+    <div id="accessibility-menu">
+        <div id="accessibility-options">
+            <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+            <button onclick="toggleHighContrast()">◐ High Contrast</button>
+            <button onclick="changeFontSize('increase')">A+ Increase Font</button>
+            <button onclick="changeFontSize('decrease')">A- Decrease Font</button>
+            <button onclick="speakText()">🔊 Read Aloud</button>
+        </div>
     </div>
 
     <footer class="border-top footer text-muted">
@@ -49,8 +71,10 @@
             &copy; 2026 - CityPointRH - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/accessibility.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

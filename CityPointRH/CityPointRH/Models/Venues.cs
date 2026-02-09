@@ -7,6 +7,7 @@
         public string VenueDescription { get; set; }
         public int Capacity { get; set; }
         public decimal PricePerHour { get; set; }
+        public string? ImagePath { get; set; }
 
         public ICollection<VenueBookings>? VenueBookings { get; set; }
         public ICollection<VenueEquipment>? VenueEquipment { get; set; }

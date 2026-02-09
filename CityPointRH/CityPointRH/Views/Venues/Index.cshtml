@@ -89,6 +89,13 @@
         padding: 20px;
         margin-bottom: 30px;
     }
+
+    .venue-image-actual {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 4px;
+    }
 </style>
 
 <h1>Rooms & Facilities</h1>
@@ -139,10 +146,19 @@
             <div class="venue-card">
                 <div class="row">
                     <!-- Image Section -->
+                    <!-- Image Section -->
                     <div class="col-md-3">
-                        <div class="venue-image">
-                            IMAGE
-                        </div>
+                        @if (!string.IsNullOrEmpty(item.ImagePath))
+                        {
+                            <img src="~/images/venues/@item.ImagePath" alt="@item.VenueName" class="venue-image-actual"
+                                 onerror="this.style.backgroundColor='#e9ecef'; this.style.display='flex'; this.style.alignItems='center'; this.style.justifyContent='center'; this.innerHTML='<span style=color:#6c757d;>IMAGE</span>';" />
+                        }
+                        else
+                        {
+                            <div class="venue-image">
+                                IMAGE
+                            </div>
+                        }
                     </div>
 
                     <!-- Details Section -->

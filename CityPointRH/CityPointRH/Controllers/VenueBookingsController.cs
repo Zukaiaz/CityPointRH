@@ -23,18 +23,35 @@ namespace CityPointRH.Controllers
 
         // GET: VenueBookings
 
-        public async Task<IActionResult> Index()
+        // GET: VenueBookings
+        [Authorize]
+        public async Task<IActionResult> Index(string status)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var userBookingData = await _context.VenueBookings
-                .Include(b => b.Venue)  // Add this line
-                .Where(b => b.UserId == userId)
-                .ToListAsync();
-            return View(userBookingData);
+            var userBookingData = _context.VenueBookings
+                .Include(b => b.Venue)
+                .Where(b => b.UserId == userId);
+
+            // Filter by status if provided
+            if (!string.IsNullOrEmpty(status))
+            {
+                userBookingData = userBookingData.Where(b => b.Status.ToLower() == status.ToLower());
+            }
+
+            // Pass counts to view for filter tabs
+            var allBookings = await _context.VenueBookings.Where(b => b.UserId == userId).ToListAsync();
+            ViewBag.TotalCount = allBookings.Count;
+            ViewBag.PendingCount = allBookings.Count(b => b.Status == "Pending");
+            ViewBag.ConfirmedCount = allBookings.Count(b => b.Status == "Confirmed");
+            ViewBag.CompletedCount = allBookings.Count(b => b.Status == "Completed");
+            ViewBag.CancelledCount = allBookings.Count(b => b.Status == "Cancelled");
+            ViewBag.CurrentStatus = status;
+
+            return View(await userBookingData.ToListAsync());
         }
 
         // GET: VenueBookings/Details/5
-
+        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -54,7 +71,7 @@ namespace CityPointRH.Controllers
         }
 
         // GET: VenueBookings/Create
-
+        [Authorize]
         public IActionResult Create(int venuesId)
         {
             ViewBag.VenuesId = venuesId;
@@ -65,10 +82,11 @@ namespace CityPointRH.Controllers
         // POST: VenueBookings/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: VenueBookings/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
-        public async Task<IActionResult> Create(int VenuesId, DateOnly BookingDate, TimeOnly StartTime, TimeOnly EndTime)
+        public async Task<IActionResult> Create(int VenuesId, DateOnly BookingDate, TimeOnly StartTime, TimeOnly EndTime, int? NumberOfAttendees)
         {
             // Get the current logged-in user's ID
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -80,13 +98,22 @@ namespace CityPointRH.Controllers
                 return View();
             }
 
+            // Validate that end time is after start time
+            if (EndTime <= StartTime)
+            {
+                ViewBag.Error = "End time must be after start time";
+                ViewBag.VenuesId = VenuesId;
+                return View();
+            }
+
             var venueBookings = new VenueBookings
             {
                 VenuesId = VenuesId,
                 UserId = userId,
                 BookingDate = BookingDate,
                 StartTime = StartTime,
-                EndTime = EndTime
+                EndTime = EndTime,  // Use the EndTime directly from the form
+                Status = "Pending"
             };
 
             try
@@ -104,8 +131,57 @@ namespace CityPointRH.Controllers
             }
         }
 
-        // GET: VenueBookings/Edit/5
 
+
+        // GET: VenueBookings/Manage (for Admin/Staff)
+        [Authorize(Roles = "Admin,Staff")]
+        public async Task<IActionResult> Manage(string status)
+        {
+            var bookings = _context.VenueBookings
+                .Include(b => b.Venue)
+                .Include(b => b.User)
+                .AsQueryable();
+
+            // Filter by status if provided
+            if (!string.IsNullOrEmpty(status))
+            {
+                bookings = bookings.Where(b => b.Status.ToLower() == status.ToLower());
+            }
+
+            // Pass counts to view for filter tabs
+            var allBookings = await _context.VenueBookings.ToListAsync();
+            ViewBag.TotalCount = allBookings.Count;
+            ViewBag.PendingCount = allBookings.Count(b => b.Status == "Pending");
+            ViewBag.ConfirmedCount = allBookings.Count(b => b.Status == "Confirmed");
+            ViewBag.CompletedCount = allBookings.Count(b => b.Status == "Completed");
+            ViewBag.CancelledCount = allBookings.Count(b => b.Status == "Cancelled");
+            ViewBag.CurrentStatus = status;
+
+            return View(await bookings.OrderByDescending(b => b.BookingDate).ToListAsync());
+        }
+
+        // POST: Update booking status
+        [HttpPost]
+        [Authorize(Roles = "Admin,Staff")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateStatus(int id, string status)
+        {
+            var booking = await _context.VenueBookings.FindAsync(id);
+            if (booking == null)
+            {
+                return NotFound();
+            }
+
+            booking.Status = status;
+            _context.Update(booking);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Manage));
+        }
+
+
+        // GET: VenueBookings/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -131,7 +207,7 @@ namespace CityPointRH.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
-        public async Task<IActionResult> Edit(int id, [Bind("VenueBookingsId,VenuesId,UserId,BookingDate,StartTime,EndTime")] VenueBookings venueBookings)
+        public async Task<IActionResult> Edit(int id, [Bind("VenueBookingsId,VenuesId,UserId,BookingDate,StartTime,EndTime,Status")] VenueBookings venueBookings)
         {
             if (id != venueBookings.VenueBookingsId)
             {
@@ -165,7 +241,7 @@ namespace CityPointRH.Controllers
         }
 
         // GET: VenueBookings/Delete/5
-
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

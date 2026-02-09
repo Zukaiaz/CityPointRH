@@ -44,3 +44,385 @@ th, td {
 tr:hover {
     background-color: #D6EEEE;
 }
+
+:root {
+    --background-color: white;
+    --text-color: black;
+}
+
+/* Accessibility Menu Styles */
+#accessibility-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    #accessibility-toggle:hover {
+        background-color: #0056b3;
+    }
+
+#accessibility-menu {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    background-color: white;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 999;
+    display: none;
+    min-width: 200px;
+}
+
+    #accessibility-menu.active {
+        display: block;
+    }
+
+#accessibility-options button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+}
+
+    #accessibility-options button:hover {
+        background-color: #0056b3;
+    }
+
+    #accessibility-options button:last-child {
+        margin-bottom: 0;
+    }
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+    body.dark-mode .navbar {
+        background-color: #2d2d2d !important;
+        border-color: #444 !important;
+    }
+
+    body.dark-mode .navbar-light .navbar-brand,
+    body.dark-mode .navbar-light .nav-link {
+        color: #ffffff !important;
+    }
+
+        body.dark-mode .navbar-light .nav-link:hover {
+            color: #ccc !important;
+        }
+
+    body.dark-mode .footer,
+    body.dark-mode .footer-section {
+        background-color: #2d2d2d !important;
+        color: #ffffff !important;
+        border-color: #444 !important;
+    }
+
+        body.dark-mode .footer a,
+        body.dark-mode .footer-column a {
+            color: #00d4ff !important;
+        }
+
+            body.dark-mode .footer a:hover,
+            body.dark-mode .footer-column a:hover {
+                color: #00a3cc !important;
+            }
+
+    body.dark-mode .footer-column h5 {
+        color: #ffffff !important;
+    }
+
+    body.dark-mode .footer-column ul li {
+        color: #e9ecef !important;
+    }
+
+    body.dark-mode .card,
+    body.dark-mode .venue-card,
+    body.dark-mode .category-card,
+    body.dark-mode .hero-section,
+    body.dark-mode .feature-card {
+        background-color: #2d2d2d !important;
+        color: #ffffff !important;
+        border-color: #444 !important;
+    }
+
+    body.dark-mode .filter-card,
+    body.dark-mode .filter-section {
+        background-color: #2d2d2d !important;
+        border-color: #444 !important;
+    }
+
+    body.dark-mode .detail-label,
+    body.dark-mode .info-label,
+    body.dark-mode .overview-label,
+    body.dark-mode .facilities-label,
+    body.dark-mode .feature-description {
+        color: #adb5bd !important;
+    }
+
+    body.dark-mode .detail-value,
+    body.dark-mode .info-value,
+    body.dark-mode .overview-value,
+    body.dark-mode .category-title,
+    body.dark-mode .feature-title {
+        color: #ffffff !important;
+    }
+
+    body.dark-mode p,
+    body.dark-mode span,
+    body.dark-mode div,
+    body.dark-mode label {
+        color: #e9ecef;
+    }
+
+    body.dark-mode h1,
+    body.dark-mode h2,
+    body.dark-mode h3,
+    body.dark-mode h4,
+    body.dark-mode h5 {
+        color: #ffffff !important;
+    }
+
+    body.dark-mode .btn-primary {
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        color: #fff;
+    }
+
+    body.dark-mode .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+        color: #fff;
+    }
+
+    body.dark-mode .btn-success {
+        background-color: #198754;
+        border-color: #198754;
+        color: #fff;
+    }
+
+    body.dark-mode input,
+    body.dark-mode select,
+    body.dark-mode textarea,
+    body.dark-mode .form-control {
+        background-color: #2d2d2d !important;
+        color: #ffffff !important;
+        border-color: #444 !important;
+    }
+
+        body.dark-mode input::placeholder,
+        body.dark-mode textarea::placeholder {
+            color: #6c757d !important;
+        }
+
+    body.dark-mode .alert-info {
+        background-color: #2d2d2d;
+        color: #ffffff;
+        border-color: #444;
+    }
+
+/* High Contrast Mode */
+body.high-contrast {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+    body.high-contrast .navbar {
+        background-color: #000000 !important;
+        border-bottom: 3px solid #ffffff !important;
+    }
+
+    body.high-contrast .navbar-light .navbar-brand,
+    body.high-contrast .navbar-light .nav-link {
+        color: #ffffff !important;
+        font-weight: bold;
+        text-shadow: 0 0 2px #ffffff;
+    }
+
+        body.high-contrast .navbar-light .nav-link:hover {
+            color: #ffff00 !important;
+        }
+
+    body.high-contrast .footer,
+    body.high-contrast .footer-section {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        border-top: 3px solid #ffffff !important;
+    }
+
+        body.high-contrast .footer a,
+        body.high-contrast .footer-column a {
+            color: #00ffff !important;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+            body.high-contrast .footer a:hover,
+            body.high-contrast .footer-column a:hover {
+                color: #ffff00 !important;
+            }
+
+    body.high-contrast .footer-column h5 {
+        color: #ffffff !important;
+        font-weight: bold;
+    }
+
+    body.high-contrast .footer-column ul li {
+        color: #ffffff !important;
+    }
+
+    body.high-contrast a {
+        color: #00ffff !important;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+        body.high-contrast a:hover {
+            color: #ffff00 !important;
+        }
+
+    body.high-contrast .btn,
+    body.high-contrast button {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        border: 3px solid #000000 !important;
+        font-weight: bold;
+    }
+
+        body.high-contrast .btn:hover,
+        body.high-contrast button:hover {
+            background-color: #ffff00 !important;
+            color: #000000 !important;
+        }
+
+    body.high-contrast .card,
+    body.high-contrast .venue-card,
+    body.high-contrast .category-card,
+    body.high-contrast .hero-section,
+    body.high-contrast .feature-card,
+    body.high-contrast .filter-section,
+    body.high-contrast .filter-card,
+    body.high-contrast .quick-overview,
+    body.high-contrast .policy-section {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        border: 3px solid #ffffff !important;
+    }
+
+    body.high-contrast .category-title,
+    body.high-contrast .venue-title,
+    body.high-contrast .feature-title,
+    body.high-contrast h1,
+    body.high-contrast h2,
+    body.high-contrast h3,
+    body.high-contrast h4,
+    body.high-contrast h5 {
+        color: #ffffff !important;
+        font-weight: bold;
+        text-shadow: 0 0 3px #ffffff;
+    }
+
+    body.high-contrast p,
+    body.high-contrast span,
+    body.high-contrast div,
+    body.high-contrast label,
+    body.high-contrast .detail-label,
+    body.high-contrast .info-label,
+    body.high-contrast .detail-value,
+    body.high-contrast .info-value,
+    body.high-contrast .feature-description {
+        color: #ffffff !important;
+    }
+
+    body.high-contrast input,
+    body.high-contrast select,
+    body.high-contrast textarea,
+    body.high-contrast .form-control {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        border: 3px solid #000000 !important;
+        font-weight: bold;
+    }
+
+        body.high-contrast input::placeholder,
+        body.high-contrast textarea::placeholder {
+            color: #666666 !important;
+            font-weight: bold;
+        }
+
+    body.high-contrast .facility-tag,
+    body.high-contrast .badge {
+        background-color: #ffff00 !important;
+        color: #000000 !important;
+        border: 2px solid #000000 !important;
+        font-weight: bold;
+    }
+
+    body.high-contrast .alert-info {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        border: 3px solid #ffffff !important;
+    }
+
+/* Make accessibility menu visible in dark mode */
+body.dark-mode #accessibility-menu {
+    background-color: #2d2d2d;
+    border-color: #007bff;
+    color: #ffffff;
+}
+
+/* Make accessibility menu visible in high contrast */
+body.high-contrast #accessibility-menu {
+    background-color: #000000 !important;
+    border: 3px solid #ffffff !important;
+    color: #ffffff !important;
+}
+
+body.high-contrast #accessibility-options button {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 2px solid #000000 !important;
+}
+
+/* Override dark mode when high contrast is active */
+body.dark-mode.high-contrast {
+    background-color: #000000 !important;
+}
+
+    body.dark-mode.high-contrast .footer,
+    body.dark-mode.high-contrast .footer-section {
+        background-color: #000000 !important;
+        border-top: 3px solid #ffffff !important;
+    }
+
+    body.dark-mode.high-contrast .card,
+    body.dark-mode.high-contrast .venue-card,
+    body.dark-mode.high-contrast .category-card,
+    body.dark-mode.high-contrast .filter-card {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        border: 3px solid #ffffff !important;
+    }
