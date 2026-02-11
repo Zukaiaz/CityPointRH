@@ -1,0 +1,135 @@
+﻿<div class="container">
+    <h2 class="mb-4">Contact Us</h2>
+
+    <!-- Success Message (hidden by default) -->
+    <div id="successMessage" class="alert alert-success" style="display:none;">
+        Thank you! Your message has been sent.
+    </div>
+
+    <form id="contactForm" novalidate>
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label for="fname" class="form-label">First Name</label>
+                <input type="text" id="fname" name="firstname" class="form-control" placeholder="Your name..">
+                <div class="invalid-feedback">First name is required.</div>
+            </div>
+            <div class="col-md-4">
+                <label for="lname" class="form-label">Last Name</label>
+                <input type="text" id="lname" name="lastname" class="form-control" placeholder="Your last name..">
+                <div class="invalid-feedback">Last name is required.</div>
+            </div>
+            <div class="col-md-4">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Your email..">
+                <div class="invalid-feedback">Please enter a valid email address.</div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="reason" class="form-label">Reason for Contact</label>
+                <select id="reason" name="reason" class="form-control">
+                    <option value="">-- Select a reason --</option>
+                    <option value="availability">Availability</option>
+                    <option value="pricing">Pricing</option>
+                    <option value="site_visit">Site Visits</option>
+                    <option value="accessibility">Accessibility</option>
+                    <option value="other">Other</option>
+                </select>
+                <div class="invalid-feedback">Please select a reason.</div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <label for="other_reason" class="form-label">Additional Message</label>
+                <textarea id="other_reason" name="Other" class="form-control" 
+                          placeholder="Write something.." rows="5" maxlength="500"></textarea>
+                <div class="invalid-feedback">Message cannot exceed 500 characters.</div>
+                <small class="text-muted"><span id="charCount">0</span>/500 characters</small>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+<script>
+    // Character counter for textarea
+    const textarea = document.getElementById('other_reason');
+    const charCount = document.getElementById('charCount');
+
+    textarea.addEventListener('input', function () {
+        charCount.textContent = this.value.length;
+    });
+
+    // Form validation
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        let isValid = true;
+
+        // Clear all previous errors
+        document.querySelectorAll('.form-control').forEach(function (input) {
+            input.classList.remove('is-invalid', 'is-valid');
+        });
+
+        // Validate First Name
+        const fname = document.getElementById('fname');
+        if (fname.value.trim() === '') {
+            fname.classList.add('is-invalid');
+            isValid = false;
+        } else {
+            fname.classList.add('is-valid');
+        }
+
+        // Validate Last Name
+        const lname = document.getElementById('lname');
+        if (lname.value.trim() === '') {
+            lname.classList.add('is-invalid');
+            isValid = false;
+        } else {
+            lname.classList.add('is-valid');
+        }
+
+        // Validate Email
+        const email = document.getElementById('email');
+        if (email.value.trim() === '' || !email.validity.valid) {
+            email.classList.add('is-invalid');
+            isValid = false;
+        } else {
+            email.classList.add('is-valid');
+        }
+
+        // Validate Reason dropdown
+        const reason = document.getElementById('reason');
+        if (reason.value === '') {
+            reason.classList.add('is-invalid');
+            isValid = false;
+        } else {
+            reason.classList.add('is-valid');
+        }
+
+        // If all valid, show success and reset
+        if (isValid) {
+            document.getElementById('contactForm').style.display = 'none';
+            document.getElementById('successMessage').style.display = 'block';
+        }
+    });
+
+    // Live validation - validate as user types
+    document.querySelectorAll('.form-control').forEach(function (input) {
+        input.addEventListener('blur', function () {
+            if (this.value.trim() !== '') {
+                this.classList.remove('is-invalid');
+                this.classList.add('is-valid');
+            }
+        });
+    });
+</script>
