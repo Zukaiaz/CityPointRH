@@ -139,8 +139,7 @@
               "RelativeToolTip": "CityPointRH\\Models\\Venues.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T09:55:36.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T09:55:36.204Z"
             },
             {
               "$type": "Document",
@@ -152,8 +151,7 @@
               "RelativeToolTip": "CityPointRH\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-06T10:51:49.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T10:51:49.531Z"
             },
             {
               "$type": "Document",
@@ -165,8 +163,7 @@
               "RelativeToolTip": "CityPointRH\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAIwB4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T10:31:17.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T10:31:17.978Z"
             },
             {
               "$type": "Document",
@@ -178,8 +175,7 @@
               "RelativeToolTip": "CityPointRH\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAK8AAAAAAAAAAAAYwA4BAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-09T09:47:09.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T09:47:09.854Z"
             },
             {
               "$type": "Document",
@@ -191,8 +187,7 @@
               "RelativeToolTip": "CityPointRH\\Views\\Venues\\Index.cshtml",
               "ViewState": "AgIAAIUAAAAAAAAAAAAYwNgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T10:13:32.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T10:13:32.272Z"
             },
             {
               "$type": "Document",
@@ -204,8 +199,7 @@
               "RelativeToolTip": "CityPointRH\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T10:04:14.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T10:04:14.776Z"
             },
             {
               "$type": "Document",
@@ -217,8 +211,7 @@
               "RelativeToolTip": "CityPointRH\\Data\\SeedData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T10:03:44.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T10:03:44.068Z"
             },
             {
               "$type": "Document",
@@ -230,8 +223,7 @@
               "RelativeToolTip": "CityPointRH\\Controllers\\VenueBookingsController.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAIwBwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T10:00:21.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T10:00:21.999Z"
             },
             {
               "$type": "Document",
@@ -243,8 +235,7 @@
               "RelativeToolTip": "CityPointRH\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAANoAAAAAAAAAAAAAAAYBAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-09T10:15:06.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T10:15:06.452Z"
             },
             {
               "$type": "Document",
@@ -256,8 +247,7 @@
               "RelativeToolTip": "CityPointRH\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T09:47:14.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T09:47:14.903Z"
             },
             {
               "$type": "Document",
@@ -267,7 +257,7 @@
               "RelativeDocumentMoniker": "CityPointRH\\Views\\Home\\Contact.cshtml",
               "ToolTip": "\\\\dom.sandwell.ac.uk\\Student\\HomeOdd\\725181\\GitHub\\CityPointRH\\CityPointRH\\CityPointRH\\Views\\Home\\Contact.cshtml",
               "RelativeToolTip": "CityPointRH\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAFUAAAAAAAAAAAASwGsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAASwGsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-11T13:10:38.777Z",
               "EditorCaption": ""
@@ -298,8 +288,7 @@
               "RelativeToolTip": "CityPointRH\\Views\\VenueEquipments\\Index.cshtml",
               "ViewState": "AgIAAGwAAAAAAAAAAAAAAI8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-09T09:03:56.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T09:03:56.132Z"
             },
             {
               "$type": "Document",
@@ -311,8 +300,7 @@
               "RelativeToolTip": "CityPointRH\\Views\\VenueBookings\\Index.cshtml",
               "ViewState": "AgIAAD4BAAAAAAAAAAAQwGcBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T10:14:32.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T10:14:32.18Z"
             },
             {
               "$type": "Document",
